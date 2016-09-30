@@ -120,4 +120,21 @@ public class CourseProgramme
             removeModule(removeModule);
         }
     }
+
+    @Override
+    public String toString()
+    {
+        String courseProgramString = "\n================================================================================\nCourse Name:\t" + this.name + "\nCourse Code:\t" + this.courseCode;
+
+        if (this.modules.size() > 0)
+        {
+            courseProgramString += "\n--------------------------------------------------------------------------------\nModules:";
+            for (Module module : this.modules)
+            {
+                courseProgramString += module.toString();
+            }
+        }
+
+        return courseProgramString;
+    }
 }
