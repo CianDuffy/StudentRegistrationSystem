@@ -1,8 +1,6 @@
 package com.CianDuffy.CT417;
 
-import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
 /**
  * Created by cianduffy on 30/09/2016.
@@ -11,24 +9,6 @@ import junit.framework.TestSuite;
 public class StudentTest extends TestCase
 {
     private Student testStudent;
-
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public StudentTest( String testName )
-    {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( StudentTest.class );
-    }
 
     @Override
     protected void setUp()
