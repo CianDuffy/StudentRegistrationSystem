@@ -14,5 +14,5 @@ notifications:
   email:
       recipients:
          - C.DUFFY33@nuigalway.ie
-         on_success: always
-         on_failure: always
+       on_success: always
+       on_failure: always
